@@ -1,7 +1,8 @@
 baseURL: "https://portfoliomain-dzg7zfqds-samson-ajadalus-projects.vercel.app/"
 languageCode: en-us
 title: "Samson Ajadalu"
-theme: CustomPaperMod
+theme: "CustomPaperMod"
+
 menu:
   main:
     - identifier: home
