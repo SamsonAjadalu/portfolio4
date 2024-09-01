@@ -1,15 +1,7 @@
-baseURL: "https://arkalim.netlify.app"
+baseURL: "https://your-site-url.com/"
 languageCode: en-us
-title: Samson Ajadalu
-<<<<<<< HEAD
-<<<<<<< HEAD
-theme = "CustomPaperMod"
-=======
-# theme = "PaperMod"
->>>>>>> 79b4b723f7cea6d91c854b603358ea5d5712f449
-=======
-theme = "CustomPaperMod"
->>>>>>> da3b5374a42843086e5dd8f75e9b8cb97f876932
+title: "Samson Ajadalu"
+theme: "CustomPaperMod"
 
 menu:
   main:
@@ -33,76 +25,30 @@ menu:
       name: Search
       url: /search
       weight: 50
-    # - identifier: tags
-    #   name: Tags
-    #   url: /tags
-    #   weight: 60
-    # - identifier: notes
-    #   name: Notes
-    #   url: https://notes.arkalim.org
-    #   weight: 70
 
 params:
-  # theme
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
 
-  # for enchanced SEO
   env: production
 
-  # Home Page
   profileMode:
     enabled: true
     title: "Samson Ajadalu"
-    subtitle: Hi 👋 I’m Samson Ajadalu, an AspiringAI + Automation Engineer, I love turning complex challenges into innovative solutions, using the power of AI and automation to make a real impact.!
-
- 
+    subtitle: "Hi 👋 I’m Samson Ajadalu, an Aspiring AI + Automation Engineer."
     imageUrl: "home/casual-small-square.jpeg"
     imageWidth: 220
     imageHeight: 220
-    # buttons:
-    #   - name: Resume
-    #     url: ""
 
-  # List View
-  hideDescriptionInList: false
-
-  # cover image for posts
-  cover:
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-
-  socialIcons:
-    - name: "email"
-      url: "mailto:abdur.rahman.kalim@gmail.com"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
-    - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
-
-  # text search
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
-
-# for search using Fuse.js
 outputs:
   home:
     - HTML
     - RSS
     - JSON
 
-# allow HTML in MD
 markup:
   goldmark:
     renderer:
