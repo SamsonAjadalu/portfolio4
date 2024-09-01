@@ -1,6 +1,6 @@
 baseURL: "https://arkalim.netlify.app"
 languageCode: en-us
-title: Abdur Rahman
+title: Samson Ajadalu
 theme: PaperMod
 
 menu:
@@ -48,8 +48,8 @@ params:
   # Home Page
   profileMode:
     enabled: true
-    title: "Abdur Rahman"
-    subtitle: Hi 👋 I'm Abdur, a tech enthusiast who loves solving complex problems. As a Software Developer in the Backend Infrastructure team at [**Clio**](https://www.clio.com), I'm building robust systems to transform the legal experience for all. By evening, you can find me pushing the limits of my strength at the gym or whipping up my favorite recipe in the kitchen. Let's connect and create something awesome together!
+    title: "Samson Ajadalu"
+    subtitle: Hi 👋 I’m Samson Ajadalu, an AspiringAI + Automation Engineer, I love turning complex challenges into innovative solutions, using the power of AI and automation to make a real impact.!
 
  
     imageUrl: "home/casual-small-square.jpeg"
