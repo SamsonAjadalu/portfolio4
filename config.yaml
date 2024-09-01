@@ -2,10 +2,14 @@ baseURL: "https://arkalim.netlify.app"
 languageCode: en-us
 title: Samson Ajadalu
 <<<<<<< HEAD
+<<<<<<< HEAD
 theme = "CustomPaperMod"
 =======
 # theme = "PaperMod"
 >>>>>>> 79b4b723f7cea6d91c854b603358ea5d5712f449
+=======
+theme = "CustomPaperMod"
+>>>>>>> da3b5374a42843086e5dd8f75e9b8cb97f876932
 
 menu:
   main:
